@@ -64,7 +64,7 @@ function AboutDept() {
         </div>
       </div>
       <div className=" mx-auto my-20 flex max-w-[90%] flex-wrap justify-between md:flex-nowrap">
-        <div className=" mx-auto mb-14 w-[90%] rounded-3xl bg-green-yellow text-white md:mx-0 md:mb-0 md:w-[45%]">
+        <div className=" mx-auto mb-14 w-[90%] rounded-3xl bg-[#e4fce5] text-black md:mx-0 md:mb-0 md:w-[45%]">
           <h1 className=" py-4 text-center text-lg font-bold">VISION</h1>
           <q className=" block px-9 py-4 text-xl leading-loose">
             To produce excellent professionals and innovators in the field of
