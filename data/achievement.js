@@ -59,3 +59,279 @@ export const achievementInTech = [
       "Dr. Tanvir Ahmad supervised Ishita Tripathy on a project on Automated Essay Grading System. The purpose of this project is to implement and train natural language processing algorithms to assess and grade essay responses automatically. The system measures the organization and structure of the essay, command over language, and other metrics using features such as dominant tense, number of long words and sentences, number of grammatical errors, sentence count, etc. The final system performs better than state-of-the-art systems on 3 out of 8 sets in the database.",
   },
 ];
+
+export const facultyParticipation = [
+  {
+    name: "Prof. Mohd Amjad",
+    activities: [
+      {
+        title: "NEP 2020 Orientation & Sensitization Programme (MM-TTP)",
+        year: 2024,
+        from: "19/02/2024",
+        to: "28/02/2024",
+        duration: "10 days",
+      },
+      {
+        title: "3-Weeks STTP on Artificial Intelligence & Machine Learning (JMI)",
+        year: 2024,
+        from: "01/07/2024",
+        to: "19/07/2024",
+        duration: "3 weeks",
+      },
+      {
+        title: "STTP on Artificial Intelligence and Machine Learning (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+    ],
+  },
+
+  {
+    name: "Prof. Tanvir Ahmad",
+    activities: [
+      {
+        title: "STTP on Artificial Intelligence and Machine Learning (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Sarfaraz Masood",
+    activities: [
+      {
+        title: "FDP on Research Trends in Machine Learning (Haldia Institute)",
+        year: 2022,
+        from: "25/07/2022",
+        to: "29/07/2022",
+        duration: "5 days",
+      },
+      {
+        title: "FDP on Deep Learning & its Application",
+        year: 2021,
+        from: "23/08/2021",
+        to: "03/09/2021",
+        duration: "12 days",
+      },
+      {
+        title: "FDP on Universal Human Values (AICTE)",
+        year: 2021,
+        from: "16/08/2021",
+        to: "20/08/2021",
+        duration: "5 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Mumtaz Ahmed",
+    activities: [
+      {
+        title: "3-Weeks STTP on AI & ML (JMI)",
+        year: 2024,
+        from: "01/07/2024",
+        to: "19/07/2024",
+        duration: "3 weeks",
+      },
+      {
+        title: "STTP on AI & ML (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+    ],
+  },
+
+  {
+    name: "Mr. Jawahar Lal",
+    activities: [
+      {
+        title: "3-Weeks STTP on AI & ML (JMI)",
+        year: 2024,
+        from: "01/07/2024",
+        to: "19/07/2024",
+        duration: "3 weeks",
+      },
+      {
+        title: "FDP on Universal Human Values (AICTE)",
+        year: 2024,
+        from: "27/06/2024",
+        to: "29/06/2024",
+        duration: "3 days",
+      },
+      {
+        title: "NEP 2020 Orientation Programme",
+        year: 2024,
+        from: "22/01/2024",
+        to: "01/02/2024",
+        duration: "11 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Faiyaz Ahmad",
+    activities: [
+      {
+        title: "3-Weeks STTP on AI & ML (JMI)",
+        year: 2024,
+        from: "01/07/2024",
+        to: "19/07/2024",
+        duration: "3 weeks",
+      },
+      {
+        title: "STTP on AI & ML (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+      {
+        title: "Cyber Security & Smart Grid (GIAN)",
+        year: 2022,
+        from: "23/05/2022",
+        to: "27/05/2022",
+        duration: "5 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Mohd Zeeshan Ansari",
+    activities: [
+      {
+        title: "NEP 2020 Orientation Programme (JMI)",
+        year: 2023,
+        from: "20/11/2023",
+        to: "30/11/2023",
+        duration: "10 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Musheer Ahmad",
+    activities: [
+      {
+        title: "NEP 2020 Orientation Programme (UGC)",
+        year: 2024,
+        from: "05/02/2024",
+        to: "14/02/2024",
+        duration: "10 days",
+      },
+      {
+        title: "STTP on AI & ML (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Danish Raza Rizvi",
+    activities: [
+      {
+        title: "3-Weeks STTP on AI & ML (JMI)",
+        year: 2024,
+        from: "01/07/2024",
+        to: "19/07/2024",
+        duration: "3 weeks",
+      },
+      {
+        title: "NEP 2020 Orientation Programme",
+        year: 2024,
+        from: "22/01/2024",
+        to: "01/02/2024",
+        duration: "8 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Shahzad Alam",
+    activities: [
+      {
+        title: "NEP 2020 Orientation Programme",
+        year: 2024,
+        from: "05/02/2024",
+        to: "14/02/2024",
+        duration: "10 days",
+      },
+      {
+        title: "FDP on Data Analytics with Cloud",
+        year: 2023,
+        from: "18/12/2023",
+        to: "22/12/2023",
+        duration: "5 days",
+      },
+    ],
+  },
+
+  {
+    name: "Dr. Waseem Ahmed",
+    activities: [
+      {
+        title: "NEP 2020 Orientation Programme",
+        year: 2024,
+        from: "05/02/2024",
+        to: "14/02/2024",
+        duration: "10 days",
+      },
+      {
+        title: "STTP on AI & ML (JMI)",
+        year: 2023,
+        from: "04/07/2023",
+        to: "22/07/2023",
+        duration: "3 weeks",
+      },
+    ],
+  },
+
+  {
+    name: "Mr. Hannan Mansoor",
+    activities: [
+      {
+        title: "NEP 2020 Orientation Programme",
+        year: 2024,
+        from: "05/02/2024",
+        to: "14/02/2024",
+        duration: "10 days",
+      },
+      {
+        title: "FDP on Data Analytics with Cloud",
+        year: 2023,
+        from: "18/12/2023",
+        to: "22/12/2023",
+        duration: "5 days",
+      },
+    ],
+  },
+
+  {
+    name: "Mr. Shamim Ahmad",
+    activities: [
+      {
+        title: "FDP on Cyber Security in Digital Era",
+        year: 2021,
+        from: "23/08/2021",
+        to: "27/08/2021",
+        duration: "1 week",
+      },
+      {
+        title: "FDP on Machine Learning & Computer Vision",
+        year: 2022,
+        from: "04/04/2022",
+        to: "09/04/2022",
+        duration: "6 days",
+      },
+    ],
+  },
+];

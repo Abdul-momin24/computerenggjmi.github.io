@@ -1,8 +1,60 @@
 import { PlayCircle, Video } from "react-feather";
 import HeroSection from "./Component/HeroSection";
 import image from "./assets/aboutjmi.jpeg";
-import { achievementInTech, videoLectures } from "../../../data/achievement";
+import { achievementInTech, videoLectures,facultyParticipation } from "../../../data/achievement";
 import AchiementCard from "./Component/AchiementCard";
+import { useState } from "react";
+  const[isExpanded,setIsExpanded] = useState(false);
+
+function facultyParticipationCard(faculty) {
+  return (
+    <div className="col-span-1 overflow-hidden rounded-md bg-green-100 shadow">
+      <button
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="flex w-full items-center justify-between bg-green-200 px-4 py-3 text-left transition-colors hover:bg-green-300"
+      >
+        <div className="flex items-center gap-2">
+          <Users className="h-5 w-5 text-green-800" />
+          <span className="font-semibold text-green-800">{faculty.name}</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-green-700 px-2 py-0.5 text-xs text-white">
+            {faculty.activities.length}{" "}
+            {faculty.activities.length === 1 ? "activity" : "activities"}
+          </span>
+          {isExpanded ? (
+            <ChevronUp className="h-5 w-5 text-green-700" />
+          ) : (
+            <ChevronDown className="h-5 w-5 text-green-700" />
+          )}
+        </div>
+      </button>
+
+      {isExpanded && (
+        <div className="divide-y divide-green-200 px-4 py-2">
+          {faculty.activities.map((activity, idx) => (
+            <div key={idx} className="py-3">
+              <p className="mb-2 font-medium text-green-800">{activity.title}</p>
+              <div className="flex flex-wrap gap-3 text-sm text-green-700">
+                <span className="flex items-center gap-1">
+                  <Calendar className="h-4 w-4" />
+                  {activity.from} - {activity.to}
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="h-4 w-4" />
+                  {activity.duration}
+                </span>
+                <span className="rounded bg-green-200 px-2 py-0.5 text-xs font-medium">
+                  {activity.year}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 function Achievments() {
   return (
     <div className="mb-48 flex w-full flex-col items-center justify-center gap-y-8 font-[450] text-justify">
@@ -54,6 +106,7 @@ function Achievments() {
           />
         ))}
       </div>
+
     </div>
   );
 }
