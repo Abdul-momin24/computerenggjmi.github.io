@@ -5,14 +5,22 @@ import najeeb from "../images/Testimonials/najeeb.jpg";
 import rashid from "../images/Testimonials/rashid.jpg";
 import shazia from "../images/Testimonials/shazia.jpg";
 import shilpi from "../images/Testimonials/shilpi.jpg";
-import sample from "../images/Testimonials/sample.jpeg";
+//import sample from "../images/Testimonials/sample.jpeg";
 import lal from "../images/Testimonials/lal.png"; 
 import saud from "../images/Testimonials/saud.jpeg";
 import noor from "../images/Testimonials/noor.jpg";
 import zohair from "../images/Testimonials/zohair.jpg";
 import faizan from "../images/Testimonials/faizan.jpeg";
+import uzma from "../images/Testimonials/uzma.jpg";
+import insharah from "../images/Testimonials/insharah.png"; 
 
 export const testimonials = [
+  {
+    name: "Insharah Ayyubi",
+    img: insharah,
+    batch: "B.Tech. 2025 Batch",
+    text:"It’s rare to find a place that changes both how you think and who you become—but Jamia did exactly that for me. My college journey has been truly unforgettable, where I not only learned technology but also started shaping my future with clarity and purpose. The environment encouraged growth, curiosity, and constant learning. At the same time, I had the privilege of being surrounded by some of the most amazing people I have ever met, who made this journey even more meaningful."
+  },
   {
     name: "Noor E Ain",
     img: noor,
@@ -24,6 +32,12 @@ export const testimonials = [
     img: saud,
     batch: "B.Tech. 2025 Batch",
     text:"My journey at Jamia Millia Islamia has been a beautiful blend of learning, growth, and unforgettable memories. It all began online during the first year, where I started exploring Android development while attending virtual classes, making new friends, joining clubs, and enjoying countless online interactions and events. During this time, I secured my first two-month online internship in Android development, which gave me practical exposure early on. When we finally met offline in the third semester, college life truly came alive with friendships and experiences, along with another four-month remote Android internship. In the fourth semester, I decided to strengthen my problem-solving skills through DSA, realizing the importance of balancing enjoyment with career growth. Although I briefly shifted focus toward improving my CGPA, starting competitive programming on Codeforces in the fifth semester turned out to be one of the best decisions of my college life, significantly boosting my problem-solving abilities. After facing rejection in my search for a summer internship, I stayed persistent and applied for winter roles. Fortunately, I received an opportunity from HashiCorp, cleared all interview rounds, and secured a winter internship. That experience was the highlight of my college journey, offering the perfect mix of learning and enjoyment, and it eventually led to a full-time offer with a 17+ LPA package. I am truly grateful to the Computer Engineering department for shaping my technical foundation, resilience, and confidence, which helped me turn aspirations into reality."
+  },
+  {
+    name: "Uzma Firoz Khan",
+    img: uzma,
+    batch: "B.Tech. 2024 Batch",
+    text:"My journey at Jamia Millia Islamia has been that of a curious beginner with a strong fascination for technology and computers, which over time evolved into that of a proficient and confident software engineer, grounded in solid fundamentals and problem-solving skills.Beyond academics, Jamia’s inclusive and intellectually stimulating environment has played a pivotal role in my holistic development. The culture encouraged critical thinking, collaboration, and self-expression, shaping not only my technical abilities but also my personality, values, and perspective.Jamia has nurtured both my intellect and individuality, equipping me with the competence and character to navigate professional and personal challenges with confidence."
   },
    {
     name: "Faizan Choudhary",
