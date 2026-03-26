@@ -335,3 +335,74 @@ export const facultyParticipation = [
     ],
   },
 ];
+export const productDevelopment = [
+  {
+    id: 1,
+    productType: "M.A. Ansari Hospital Management System",
+    facultyName: "Prof. Tanvir Ahmad, Dr. Sarfaraz Masood",
+    assessmentYear: "CAY m2 (2022-23)",
+  },
+  {
+    id: 2,
+    productType: "Website of the Department of Computer Engineering",
+    facultyName: "Dr. Shahzad Alam, Dr. Mumtaz Ahmad",
+    assessmentYear: "CAYm2 (2022-23)",
+  },
+  {
+    id: 3,
+    productType: "IOT based suspicious activity detection system",
+    facultyName: "Prof. Mohammad Amjad, Mr. Hannan Mansoor",
+    assessmentYear: "CAYm1 (2023-2024)",
+  },
+  {
+    id: 4,
+    productType: "Cloud Enabled Image Capture System in accident situations",
+    facultyName: "Prof. Mohammad Amjad, Dr. Danish Raza Rizvi",
+    assessmentYear: "CAYm1 (2023-2024)",
+  },
+];
+
+export const patents = [
+  {
+    id: 1,
+    year: 2024,
+    title:
+      'Centralized Digital System for PPV and PPC Multimedia Services for Conditional Access System',
+    inventors: "Om Pal, Bashir Alam",
+    registrationNo: "201811007055",
+    registrationDate: "24/02/2018",
+    status: "Granted",
+  },
+  {
+    id: 2,
+    year: 2024,
+    title:
+      'Method and System for Secure Group Communication for Dynamic Group',
+    inventors: "Om Pal, Bashir Alam",
+    registrationNo: "201811022702",
+    registrationDate: "18/06/2018",
+    status: "Granted",
+  },
+  {
+    id: 3,
+    year: 2022,
+    title:
+      "A feature-boosted Web-based product purchase recommendation method and system",
+    inventors:
+      "Sarfaraz Masood, Sameera Mufazzal, Noor Zaman Khan, S. M. Muzakkir, Zahid A. Khan, Mohd Tauheed Khan",
+    registrationNo: "2021103131",
+    registrationDate: "05/06/2021",
+    status: "Granted",
+  },
+  {
+    id: 4,
+    year: 2021,
+    title:
+      'Items Selecting Recommender System Using AI-Based and Deep Learning Programming',
+    inventors: "Rajiv Kumar Nath, Tanvir Ahmad et. al.",
+    registrationNo: "2021101819",
+    registrationDate: "12/05/2021",
+    status: "Granted",
+  },
+];
+
