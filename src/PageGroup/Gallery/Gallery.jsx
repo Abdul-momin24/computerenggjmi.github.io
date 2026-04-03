@@ -40,14 +40,10 @@ function Gallery() {
                 </div>
             </div>
 
-            <div className="mx-auto mt-8 grid w-full grid-cols-1 place-items-center gap-x-10 gap-y-12 px-2 sm:px-6 md:grid-cols-2 md:px-12 lg:grid-cols-3 lg:px-20">
+            <div className="mx-auto mt-8 mb-12 grid w-full grid-cols-1 place-items-center gap-x-10 gap-y-12 px-2 sm:px-6 md:grid-cols-2 md:px-12 lg:grid-cols-3 lg:px-20">
                 <Imagebox title={data[button]} num={num}/>
             </div>
-            <div className="flex w-full flex-col items-center justify-center my-10 gap-y-20 font-[450]">
-                <button className="w-64 bg-green-deep hover:bg-green-700 text-white font-bold py-2 px-4 border border-silver p-4" onClick={() => setNum(num + 6)}>
-                    Load More
-                </button>
-            </div>
+            
 
         </>
     )
